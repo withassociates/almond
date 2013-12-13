@@ -386,7 +386,7 @@ var requirejs, require, define;
     /**
      * Expose module registry for debugging and tooling
      */
-    requirejs._defined = defined;
+    requirejs._defined = waiting;
 
     define = function (name, deps, callback) {
 
